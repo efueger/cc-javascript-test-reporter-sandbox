@@ -1,8 +1,8 @@
 // Testing is fun!!! Or is it?
-function helloWorld() {
+function helloWorld1() {
     return "Hello world!";
 }
 
-function byeWorld() {
+function byeWorld1() {
     return "Bye world!";
 }
