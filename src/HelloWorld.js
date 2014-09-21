@@ -1,8 +1,8 @@
-// Testing is fun!!! Or is it? Not really.
-function helloWorld1() {
+// Testing is fun!!! Or is it? Not really. At all.
+function helloWorld() {
     return "Hello world!";
 }
 
-function byeWorld1() {
+function byeWorld() {
     return "Bye world!";
 }
