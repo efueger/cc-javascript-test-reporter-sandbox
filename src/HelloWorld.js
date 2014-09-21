@@ -1,4 +1,4 @@
-// Testing is fun!!! Or is it? Not really. At all.
+// Testing is fun!!! Or is it? Not really.
 function helloWorld() {
     return "Hello world!";
 }
