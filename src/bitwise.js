@@ -1,7 +1,7 @@
 // helper function for displaing results
 var output = function(operator, result) {
     document.getElementById(operator).innerHTML = result;
-}
+};
 
 // variables
 var a = 5;
