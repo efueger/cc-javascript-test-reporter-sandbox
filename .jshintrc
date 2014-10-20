@@ -1,0 +1,8 @@
+{
+    // JSHint Default Configuration File (as on JSHint website)
+    // See http://jshint.com/docs/ for more details
+
+    // Enforcing
+    "curly"         : true,     // true: Require {} for every new block or scope
+
+}
