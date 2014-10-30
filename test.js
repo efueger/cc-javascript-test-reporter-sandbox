@@ -285,8 +285,8 @@ Translator.reopen(/** @lends Translator# */{
     p('iregex', /^iregex$/i);
     p('between', /^between$/i);
     p('in', /^in$/i);
-    p('gt', /^gt$/i);
-    p('gte', /^gte$/i);
+    //p('gt', /^gt$/i);
+    //p('gte', /^gte$/i);
     //p('lt', /^lt$/i);
     //p('lte', /^lte$/i);
     //p('isnull', /^(?:is)null$/i);
@@ -310,8 +310,8 @@ Translator.reopen(/** @lends Translator# */{
     p('regex', '%s ~ %s', wrapValue(regex));
     p('iregex', '%s ~* %s', wrapValue(regex));
     p('between', '%s BETWEEN %s AND %s', expandArgs);
-    p('in', '%s IN %s');
-    p('gt', '%s > %s');
+    //p('in', '%s IN %s');
+    //p('gt', '%s > %s');
     //p('gte', '%s >= %s');
     //p('lt', '%s < %s');
     //p('lte', '%s <= %s');
