@@ -292,11 +292,11 @@ Translator.reopen(/** @lends Translator# */{
     p('isnull', /^(?:is)null$/i);
     p('year', /^year$/i);
     p('month', /^month$/i);
-    p('day', /^day$/i);
-    p('weekday', /^weekday$/i);
-    p('hour', /^hour$/i);
-    p('minute', /^minute$/i);
-    p('second', /^second$/i);
+    //p('day', /^day$/i);
+    //p('weekday', /^weekday$/i);
+    //p('hour', /^hour$/i);
+    //p('minute', /^minute$/i);
+    //p('second', /^second$/i);
 
     // define the format and argument transforms for each predicate
     p('exact', '%s = %s');
