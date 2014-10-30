@@ -282,9 +282,9 @@ Translator.reopen(/** @lends Translator# */{
     p('endsWith', /^endsWith$/i);
     p('iendsWith', /^iendsWith$/i);
     p('regex', /^regex$/i);
-    p('iregex', /^iregex$/i);
-    p('between', /^between$/i);
-    p('in', /^in$/i);
+    //p('iregex', /^iregex$/i);
+    //p('between', /^between$/i);
+    //p('in', /^in$/i);
     //p('gt', /^gt$/i);
     //p('gte', /^gte$/i);
     //p('lt', /^lt$/i);
@@ -307,9 +307,9 @@ Translator.reopen(/** @lends Translator# */{
     p('istartsWith', 'UPPER(%s) LIKE UPPER(%s)', wrapValue(like, startsWith));
     p('endsWith', '%s LIKE %s', wrapValue(like, endsWith));
     p('iendsWith', 'UPPER(%s) LIKE UPPER(%s)', wrapValue(like, endsWith));
-    p('regex', '%s ~ %s', wrapValue(regex));
-    p('iregex', '%s ~* %s', wrapValue(regex));
-    p('between', '%s BETWEEN %s AND %s', expandArgs);
+    //p('regex', '%s ~ %s', wrapValue(regex));
+    //p('iregex', '%s ~* %s', wrapValue(regex));
+    //p('between', '%s BETWEEN %s AND %s', expandArgs);
     //p('in', '%s IN %s');
     //p('gt', '%s > %s');
     //p('gte', '%s >= %s');
