@@ -287,11 +287,11 @@ Translator.reopen(/** @lends Translator# */{
     p('in', /^in$/i);
     p('gt', /^gt$/i);
     p('gte', /^gte$/i);
-    p('lt', /^lt$/i);
-    p('lte', /^lte$/i);
-    p('isnull', /^(?:is)null$/i);
-    p('year', /^year$/i);
-    p('month', /^month$/i);
+    //p('lt', /^lt$/i);
+    //p('lte', /^lte$/i);
+    //p('isnull', /^(?:is)null$/i);
+    //p('year', /^year$/i);
+    //p('month', /^month$/i);
     //p('day', /^day$/i);
     //p('weekday', /^weekday$/i);
     //p('hour', /^hour$/i);
