@@ -312,17 +312,17 @@ Translator.reopen(/** @lends Translator# */{
     p('between', '%s BETWEEN %s AND %s', expandArgs);
     p('in', '%s IN %s');
     p('gt', '%s > %s');
-    p('gte', '%s >= %s');
-    p('lt', '%s < %s');
-    p('lte', '%s <= %s');
-    p('isnull', '%s IS %s', wrapValue(isNull, literal));
-    p('year', 'YEAR(%s) = %s');
-    p('month', 'MONTH(%s) = %s');
-    p('day', 'DAY(%s) = %s');
-    p('weekday', 'WEEKDAY(%s) = %s', wrapValue(date.parseWeekdayToInt));
-    p('hour', 'HOUR(%s) = %s');
-    p('minute', 'MINUTE(%s) = %s');
-    p('second', 'SECOND(%s) = %s');
+    //p('gte', '%s >= %s');
+    //p('lt', '%s < %s');
+    //p('lte', '%s <= %s');
+    //p('isnull', '%s IS %s', wrapValue(isNull, literal));
+    //p('year', 'YEAR(%s) = %s');
+    //p('month', 'MONTH(%s) = %s');
+    //p('day', 'DAY(%s) = %s');
+    //p('weekday', 'WEEKDAY(%s) = %s', wrapValue(date.parseWeekdayToInt));
+    //p('hour', 'HOUR(%s) = %s');
+    //p('minute', 'MINUTE(%s) = %s');
+    //p('second', 'SECOND(%s) = %s');
   },
 
   /**
