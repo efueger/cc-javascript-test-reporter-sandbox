@@ -4,6 +4,7 @@
 
     // Enforcing
     "curly"         : false,     // true: Require {} for every new block or scope
+    "bitwise"       : true,     // true: Prohibit bitwise operators (&, |, ^, etc.)
 
     // Custom Globals
     "globals"       : {}        // additional predefined global variables
