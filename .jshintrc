@@ -3,8 +3,7 @@
     "maxerr"        : 50,       // {int} Maximum error before stopping
 
     // Enforcing
-    "curly"         : false,     // true: Require {} for every new block or scope
-    //"bitwise"       : false,     // true: Prohibit bitwise operators (&, |, ^, etc.)
+    "bitwise"       : true,     // true: Prohibit bitwise operators (&, |, ^, etc.)
 
     // Custom Globals
     "globals"       : {}        // additional predefined global variables
