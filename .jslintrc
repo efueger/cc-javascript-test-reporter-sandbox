@@ -3,7 +3,7 @@
     "maxerr"        : 50,       // {int} Maximum error before stopping
 
     // Enforcing
-    
+    "bitwise"       : true,     // true: Prohibit bitwise operators (&, |, ^, etc.)
 
     // Custom Globals
     "globals"       : {}        // additional predefined global variables
