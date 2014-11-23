@@ -5,7 +5,7 @@
         var prime = true, i;
       
         if ( isNumber( number ) ) {
-            for ( i = 2; i < number; i++ ) {
+            for ( i = 3; i < number; i++ ) {
               if ( number % i === 0 ) {
                   prime = false;
               } 
