@@ -9,6 +9,13 @@ module.exports = function(config) {
    		dir: 'coverage'
 	},
 
+    plugins: [
+          'karma-jasmine',
+          'karma-coverage',
+          'karma-chrome-launcher',
+          'karma-phantomjs-launcher'
+        ],
+
     // base path that will be used to resolve all patterns (eg. files, exclude)
     basePath: '',
 
