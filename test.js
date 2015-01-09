@@ -23,3 +23,4 @@
   
     console.log( isPrime( 109 ) );
 }());
+//Test
